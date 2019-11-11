@@ -1202,14 +1202,24 @@ namespace ZigBeeNet
         ///
         /// <param name="ieeeAddress">the <see cref="IeeeAddress"/> of the node to rediscover</param>
         /// </summary>
-        public void RediscoverNode(IeeeAddress address)
+        public async Task RediscoverNode(IeeeAddress address)
         {
             ZigBeeDiscoveryExtension networkDiscoverer = (ZigBeeDiscoveryExtension)GetExtension(typeof(ZigBeeDiscoveryExtension));
             if (networkDiscoverer == null)
             {
                 return;
             }
-            networkDiscoverer.RediscoverNode(address);
+            await networkDiscoverer.RediscoverNode(address);
+        }
+
+        public async Task RediscoverNode(ushort networkAddress)
+        {
+            ZigBeeDiscoveryExtension networkDiscoverer = (ZigBeeDiscoveryExtension)GetExtension(typeof(ZigBeeDiscoveryExtension));
+            if (networkDiscoverer == null)
+            {
+                return;
+            }
+            await networkDiscoverer.RediscoverNode(networkAddress);
         }
 
         /// <summary>
