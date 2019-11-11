@@ -39,6 +39,7 @@ namespace ZigBeeNet.ZCL.Clusters.OTAUpgrade
     /// </summary>
     public class ImageBlockResponse : ZclCommand
     {
+        public const string Label = "Image Block Response";
         /// <summary>
         /// Status command message field.
         /// </summary>

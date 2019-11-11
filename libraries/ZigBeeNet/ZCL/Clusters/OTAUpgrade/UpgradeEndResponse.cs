@@ -33,6 +33,7 @@ namespace ZigBeeNet.ZCL.Clusters.OTAUpgrade
     /// </summary>
     public class UpgradeEndResponse : ZclCommand
     {
+        public const string Label = "Upgrade End Response";
         /// <summary>
         /// Manufacturer code command message field.
         /// </summary>

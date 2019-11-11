@@ -25,6 +25,7 @@ namespace ZigBeeNet.ZCL.Clusters.General
     /// </summary>
     public class DefaultResponse : ZclCommand
     {
+        public const string Label = "Default Response";
         /// <summary>
         /// Command identifier command message field.
         /// </summary>

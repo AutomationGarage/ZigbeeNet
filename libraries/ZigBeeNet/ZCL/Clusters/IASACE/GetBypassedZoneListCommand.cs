@@ -24,6 +24,7 @@ namespace ZigBeeNet.ZCL.Clusters.IASACE
     /// </summary>
     public class GetBypassedZoneListCommand : ZclCommand
     {
+        public const string Label = "Get Bypassed Zone List Command";
 
         /// <summary>
         /// Default constructor.

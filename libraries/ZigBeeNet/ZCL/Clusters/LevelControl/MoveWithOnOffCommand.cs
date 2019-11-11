@@ -20,6 +20,7 @@ namespace ZigBeeNet.ZCL.Clusters.LevelControl
     /// </summary>
     public class MoveWithOnOffCommand : ZclCommand
     {
+        public const string Label = "Move (with On/Off) Command";
         /// <summary>
         /// Move mode command message field.
         /// </summary>

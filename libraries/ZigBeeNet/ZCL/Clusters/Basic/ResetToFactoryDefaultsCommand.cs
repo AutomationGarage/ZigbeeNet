@@ -24,6 +24,7 @@ namespace ZigBeeNet.ZCL.Clusters.Basic
     /// </summary>
     public class ResetToFactoryDefaultsCommand : ZclCommand
     {
+        public const string Label = "Reset to Factory Defaults Command";
 
         /// <summary>
         /// Default constructor.

@@ -20,6 +20,7 @@ namespace ZigBeeNet.ZCL.Clusters.Groups
     /// </summary>
     public class AddGroupResponse : ZclCommand
     {
+        public const string Label = "Add Group Response";
         /// <summary>
         /// Status command message field.
         /// </summary>

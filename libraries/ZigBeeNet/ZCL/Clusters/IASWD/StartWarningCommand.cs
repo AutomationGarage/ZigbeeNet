@@ -26,6 +26,7 @@ namespace ZigBeeNet.ZCL.Clusters.IASWD
     /// </summary>
     public class StartWarningCommand : ZclCommand
     {
+        public const string Label = "Start Warning Command";
         /// <summary>
         /// Header command message field.
         /// </summary>

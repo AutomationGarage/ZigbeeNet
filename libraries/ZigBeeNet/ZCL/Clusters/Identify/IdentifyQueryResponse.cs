@@ -23,6 +23,7 @@ namespace ZigBeeNet.ZCL.Clusters.Identify
     /// </summary>
     public class IdentifyQueryResponse : ZclCommand
     {
+        public const string Label = "Identify Query Response";
         /// <summary>
         /// Identify Time command message field.
         /// </summary>

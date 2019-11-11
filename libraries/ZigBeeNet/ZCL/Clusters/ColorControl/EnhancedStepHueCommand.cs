@@ -20,6 +20,7 @@ namespace ZigBeeNet.ZCL.Clusters.ColorControl
     /// </summary>
     public class EnhancedStepHueCommand : ZclCommand
     {
+        public const string Label = "Enhanced Step Hue Command";
         /// <summary>
         /// Step Mode command message field.
         /// </summary>

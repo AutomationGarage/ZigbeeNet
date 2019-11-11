@@ -20,6 +20,7 @@ namespace ZigBeeNet.ZCL.Clusters.Identify
     /// </summary>
     public class IdentifyQueryCommand : ZclCommand
     {
+        public const string Label = "Identify Query Command";
 
         /// <summary>
         /// Default constructor.

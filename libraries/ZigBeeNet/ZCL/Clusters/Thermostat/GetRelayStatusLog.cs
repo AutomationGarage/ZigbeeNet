@@ -38,6 +38,7 @@ namespace ZigBeeNet.ZCL.Clusters.Thermostat
     /// </summary>
     public class GetRelayStatusLog : ZclCommand
     {
+        public const string Label = "Get Relay Status Log";
 
         /// <summary>
         /// Default constructor.

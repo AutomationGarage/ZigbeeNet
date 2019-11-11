@@ -23,6 +23,7 @@ namespace ZigBeeNet.ZCL.Clusters.General
     /// </summary>
     public class DiscoverCommandsGenerated : ZclCommand
     {
+        public const string Label = "Discover Commands Generated";
         /// <summary>
         /// Start command identifier command message field.
         /// </summary>

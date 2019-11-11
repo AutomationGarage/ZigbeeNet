@@ -36,6 +36,7 @@ namespace ZigBeeNet.ZCL.Clusters.OTAUpgrade
     /// </summary>
     public class ImagePageCommand : ZclCommand
     {
+        public const string Label = "Image Page Command";
         /// <summary>
         /// Field control command message field.
         /// </summary>

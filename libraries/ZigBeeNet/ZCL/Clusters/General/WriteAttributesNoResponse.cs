@@ -25,6 +25,7 @@ namespace ZigBeeNet.ZCL.Clusters.General
     /// </summary>
     public class WriteAttributesNoResponse : ZclCommand
     {
+        public const string Label = "Write Attributes No Response";
         /// <summary>
         /// Records command message field.
         /// </summary>

@@ -23,6 +23,7 @@ namespace ZigBeeNet.ZCL.Clusters.General
     /// </summary>
     public class WriteAttributesStructuredResponse : ZclCommand
     {
+        public const string Label = "Write Attributes Structured Response";
         /// <summary>
         /// Status command message field.
         ///

@@ -20,6 +20,7 @@ namespace ZigBeeNet.ZCL.Clusters.RSSILocation
     /// </summary>
     public class GetDeviceConfigurationCommand : ZclCommand
     {
+        public const string Label = "Get Device Configuration Command";
         /// <summary>
         /// Target Address command message field.
         /// </summary>

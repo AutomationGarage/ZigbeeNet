@@ -20,6 +20,7 @@ namespace ZigBeeNet.ZCL.Clusters.IASWD
     /// </summary>
     public class SquawkCommand : ZclCommand
     {
+        public const string Label = "Squawk Command";
         /// <summary>
         /// Header command message field.
         /// </summary>

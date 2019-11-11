@@ -31,6 +31,7 @@ namespace ZigBeeNet.ZCL.Clusters.General
     /// </summary>
     public class WriteAttributesUndividedCommand : ZclCommand
     {
+        public const string Label = "Write Attributes Undivided Command";
         /// <summary>
         /// Records command message field.
         /// </summary>

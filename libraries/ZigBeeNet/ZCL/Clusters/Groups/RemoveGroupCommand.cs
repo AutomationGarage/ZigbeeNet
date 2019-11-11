@@ -20,6 +20,7 @@ namespace ZigBeeNet.ZCL.Clusters.Groups
     /// </summary>
     public class RemoveGroupCommand : ZclCommand
     {
+        public const string Label = "Remove Group Command";
         /// <summary>
         /// Group ID command message field.
         /// </summary>

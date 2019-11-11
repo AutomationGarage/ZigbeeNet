@@ -22,6 +22,7 @@ namespace ZigBeeNet.ZCL.Clusters.Scenes
     /// </summary>
     public class RemoveAllScenesCommand : ZclCommand
     {
+        public const string Label = "Remove All Scenes Command";
         /// <summary>
         /// Group ID command message field.
         /// </summary>

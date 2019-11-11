@@ -24,6 +24,7 @@ namespace ZigBeeNet.ZCL.Clusters.General
     /// </summary>
     public class ReadAttributesCommand : ZclCommand
     {
+        public const string Label = "Read Attributes Command";
         /// <summary>
         /// Identifiers command message field.
         /// </summary>

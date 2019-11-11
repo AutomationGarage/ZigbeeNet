@@ -35,6 +35,7 @@ namespace ZigBeeNet.ZCL.Clusters.OTAUpgrade
     /// </summary>
     public class ImageNotifyCommand : ZclCommand
     {
+        public const string Label = "Image Notify Command";
         /// <summary>
         /// Payload type command message field.
         /// </summary>

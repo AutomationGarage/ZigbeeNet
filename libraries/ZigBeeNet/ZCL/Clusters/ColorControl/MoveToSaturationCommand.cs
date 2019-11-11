@@ -20,6 +20,7 @@ namespace ZigBeeNet.ZCL.Clusters.ColorControl
     /// </summary>
     public class MoveToSaturationCommand : ZclCommand
     {
+        public const string Label = "Move to Saturation Command";
         /// <summary>
         /// Saturation command message field.
         /// </summary>

@@ -20,6 +20,7 @@ namespace ZigBeeNet.ZCL.Clusters.RSSILocation
     /// </summary>
     public class AnchorNodeAnnounceCommand : ZclCommand
     {
+        public const string Label = "Anchor Node Announce Command";
         /// <summary>
         /// Anchor Node Address command message field.
         /// </summary>

@@ -23,6 +23,7 @@ namespace ZigBeeNet.ZCL.Clusters.IASACE
     /// </summary>
     public class SetBypassedZoneListCommand : ZclCommand
     {
+        public const string Label = "Set Bypassed Zone List Command";
         /// <summary>
         /// Zone ID command message field.
         ///

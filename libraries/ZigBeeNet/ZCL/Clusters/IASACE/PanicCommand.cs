@@ -20,6 +20,7 @@ namespace ZigBeeNet.ZCL.Clusters.IASACE
     /// </summary>
     public class PanicCommand : ZclCommand
     {
+        public const string Label = "Panic Command";
 
         /// <summary>
         /// Default constructor.

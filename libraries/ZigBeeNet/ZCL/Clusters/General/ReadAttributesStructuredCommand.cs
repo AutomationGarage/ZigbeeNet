@@ -25,6 +25,7 @@ namespace ZigBeeNet.ZCL.Clusters.General
     /// </summary>
     public class ReadAttributesStructuredCommand : ZclCommand
     {
+        public const string Label = "Read Attributes Structured Command";
         /// <summary>
         /// Attribute selectors command message field.
         /// </summary>

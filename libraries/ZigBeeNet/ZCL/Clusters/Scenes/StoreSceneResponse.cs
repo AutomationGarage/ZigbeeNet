@@ -20,6 +20,7 @@ namespace ZigBeeNet.ZCL.Clusters.Scenes
     /// </summary>
     public class StoreSceneResponse : ZclCommand
     {
+        public const string Label = "Store Scene Response";
         /// <summary>
         /// Status command message field.
         /// </summary>

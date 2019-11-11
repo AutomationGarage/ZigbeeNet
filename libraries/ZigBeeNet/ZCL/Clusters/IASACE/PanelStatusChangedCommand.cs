@@ -32,6 +32,7 @@ namespace ZigBeeNet.ZCL.Clusters.IASACE
     /// </summary>
     public class PanelStatusChangedCommand : ZclCommand
     {
+        public const string Label = "Panel Status Changed Command";
         /// <summary>
         /// Panel Status command message field.
         ///

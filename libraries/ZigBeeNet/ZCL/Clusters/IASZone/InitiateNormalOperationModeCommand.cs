@@ -29,6 +29,7 @@ namespace ZigBeeNet.ZCL.Clusters.IASZone
     /// </summary>
     public class InitiateNormalOperationModeCommand : ZclCommand
     {
+        public const string Label = "Initiate Normal Operation Mode Command";
 
         /// <summary>
         /// Default constructor.

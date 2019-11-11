@@ -20,6 +20,7 @@ namespace ZigBeeNet.ZCL.Clusters.DoorLock
     /// </summary>
     public class UnlockDoorCommand : ZclCommand
     {
+        public const string Label = "Unlock Door Command";
         /// <summary>
         /// Pin code command message field.
         /// </summary>

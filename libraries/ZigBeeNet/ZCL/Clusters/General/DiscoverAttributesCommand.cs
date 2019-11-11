@@ -24,6 +24,7 @@ namespace ZigBeeNet.ZCL.Clusters.General
     /// </summary>
     public class DiscoverAttributesCommand : ZclCommand
     {
+        public const string Label = "Discover Attributes Command";
         /// <summary>
         /// Start attribute identifier command message field.
         ///

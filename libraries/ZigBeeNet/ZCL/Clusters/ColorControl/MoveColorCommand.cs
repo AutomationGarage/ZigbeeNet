@@ -20,6 +20,7 @@ namespace ZigBeeNet.ZCL.Clusters.ColorControl
     /// </summary>
     public class MoveColorCommand : ZclCommand
     {
+        public const string Label = "Move Color Command";
         /// <summary>
         /// RateX command message field.
         /// </summary>

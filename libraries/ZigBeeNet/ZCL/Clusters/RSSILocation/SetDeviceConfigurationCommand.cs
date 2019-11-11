@@ -20,6 +20,7 @@ namespace ZigBeeNet.ZCL.Clusters.RSSILocation
     /// </summary>
     public class SetDeviceConfigurationCommand : ZclCommand
     {
+        public const string Label = "Set Device Configuration Command";
         /// <summary>
         /// Power command message field.
         /// </summary>

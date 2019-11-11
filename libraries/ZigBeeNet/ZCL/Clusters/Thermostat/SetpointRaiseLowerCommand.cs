@@ -20,6 +20,7 @@ namespace ZigBeeNet.ZCL.Clusters.Thermostat
     /// </summary>
     public class SetpointRaiseLowerCommand : ZclCommand
     {
+        public const string Label = "Setpoint Raise/Lower Command";
         /// <summary>
         /// Mode command message field.
         /// </summary>

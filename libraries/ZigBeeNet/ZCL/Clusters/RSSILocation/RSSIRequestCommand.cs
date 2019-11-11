@@ -20,6 +20,7 @@ namespace ZigBeeNet.ZCL.Clusters.RSSILocation
     /// </summary>
     public class RSSIRequestCommand : ZclCommand
     {
+        public const string Label = "RSSI Request Command";
 
         /// <summary>
         /// Default constructor.

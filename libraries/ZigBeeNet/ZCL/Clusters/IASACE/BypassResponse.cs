@@ -22,6 +22,7 @@ namespace ZigBeeNet.ZCL.Clusters.IASACE
     /// </summary>
     public class BypassResponse : ZclCommand
     {
+        public const string Label = "Bypass Response";
         /// <summary>
         /// Bypass Result command message field.
         ///

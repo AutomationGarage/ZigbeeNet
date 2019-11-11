@@ -953,6 +953,12 @@ namespace ZigBeeNet.ZCL
             throw new NotImplementedException();
         }
 
+
+        public virtual byte[] GetCommandIds()
+        {
+            throw new NotImplementedException();
+        }
+
         /// <summary>
         /// Gets a response from the command ID (ie a command from server to client). If no command with the requested id is
         /// found, null is returned.

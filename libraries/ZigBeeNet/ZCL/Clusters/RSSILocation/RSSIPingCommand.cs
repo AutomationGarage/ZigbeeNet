@@ -20,6 +20,7 @@ namespace ZigBeeNet.ZCL.Clusters.RSSILocation
     /// </summary>
     public class RSSIPingCommand : ZclCommand
     {
+        public const string Label = "RSSI Ping Command";
         /// <summary>
         /// Location Type command message field.
         /// </summary>

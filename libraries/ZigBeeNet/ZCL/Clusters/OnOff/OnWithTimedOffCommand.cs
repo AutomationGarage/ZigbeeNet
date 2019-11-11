@@ -26,6 +26,7 @@ namespace ZigBeeNet.ZCL.Clusters.OnOff
     /// </summary>
     public class OnWithTimedOffCommand : ZclCommand
     {
+        public const string Label = "On With Timed Off Command";
         /// <summary>
         /// On Off Control command message field.
         /// </summary>

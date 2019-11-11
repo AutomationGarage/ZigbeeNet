@@ -20,6 +20,7 @@ namespace ZigBeeNet.ZCL.Clusters.Thermostat
     /// </summary>
     public class ClearWeeklySchedule : ZclCommand
     {
+        public const string Label = "Clear Weekly Schedule";
 
         /// <summary>
         /// Default constructor.

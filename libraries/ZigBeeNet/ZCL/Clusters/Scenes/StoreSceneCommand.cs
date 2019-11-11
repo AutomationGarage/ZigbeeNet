@@ -22,6 +22,7 @@ namespace ZigBeeNet.ZCL.Clusters.Scenes
     /// </summary>
     public class StoreSceneCommand : ZclCommand
     {
+        public const string Label = "Store Scene Command";
         /// <summary>
         /// Group ID command message field.
         /// </summary>

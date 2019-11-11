@@ -20,6 +20,7 @@ namespace ZigBeeNet.ZCL.Clusters.ColorControl
     /// </summary>
     public class ColorLoopSetCommand : ZclCommand
     {
+        public const string Label = "Color Loop Set Command";
         /// <summary>
         /// Update Flags command message field.
         /// </summary>

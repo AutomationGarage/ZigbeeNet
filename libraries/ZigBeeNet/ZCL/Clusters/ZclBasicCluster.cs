@@ -863,5 +863,13 @@ namespace ZigBeeNet.ZCL.Clusters
                         return null;
             }
         }
+
+        public override byte[] GetCommandIds()
+        {
+            return new byte[]
+            {
+                0,
+            };
+        }
     }
 }

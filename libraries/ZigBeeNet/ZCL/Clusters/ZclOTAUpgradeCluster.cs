@@ -1035,6 +1035,19 @@ namespace ZigBeeNet.ZCL.Clusters
             }
         }
 
+        public override byte[] GetCommandIds()
+        {
+            return new byte[]
+            {
+                0,
+                1,
+                3,
+                4,
+                6,
+                8,
+            };
+        }
+
         public ZclCommand getResponseFromId(int commandId)
         {
             switch (commandId)

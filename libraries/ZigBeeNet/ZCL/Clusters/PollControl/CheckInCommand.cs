@@ -29,6 +29,7 @@ namespace ZigBeeNet.ZCL.Clusters.PollControl
     /// </summary>
     public class CheckInCommand : ZclCommand
     {
+        public const string Label = "Check In Command";
 
         /// <summary>
         /// Default constructor.

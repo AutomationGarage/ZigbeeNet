@@ -20,6 +20,7 @@ namespace ZigBeeNet.ZCL.Clusters.ColorControl
     /// </summary>
     public class EnhancedMoveToHueAndSaturationCommand : ZclCommand
     {
+        public const string Label = "Enhanced Move To Hue and Saturation Command";
         /// <summary>
         /// Hue command message field.
         /// </summary>

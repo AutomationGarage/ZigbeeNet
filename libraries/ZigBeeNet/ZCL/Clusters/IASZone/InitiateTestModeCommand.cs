@@ -35,6 +35,7 @@ namespace ZigBeeNet.ZCL.Clusters.IASZone
     /// </summary>
     public class InitiateTestModeCommand : ZclCommand
     {
+        public const string Label = "Initiate Test Mode Command";
         /// <summary>
         /// Test Mode Duration command message field.
         /// </summary>

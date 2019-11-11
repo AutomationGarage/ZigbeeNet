@@ -20,6 +20,7 @@ namespace ZigBeeNet.ZCL.Clusters.ColorControl
     /// </summary>
     public class MoveToColorTemperatureCommand : ZclCommand
     {
+        public const string Label = "Move to Color Temperature Command";
         /// <summary>
         /// Color Temperature command message field.
         /// </summary>

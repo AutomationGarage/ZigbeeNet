@@ -20,6 +20,7 @@ namespace ZigBeeNet.ZCL.Clusters.Alarms
     /// </summary>
     public class GetAlarmCommand : ZclCommand
     {
+        public const string Label = "Get Alarm Command";
 
         /// <summary>
         /// Default constructor.

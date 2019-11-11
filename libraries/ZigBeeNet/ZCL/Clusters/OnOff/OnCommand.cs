@@ -20,6 +20,7 @@ namespace ZigBeeNet.ZCL.Clusters.OnOff
     /// </summary>
     public class OnCommand : ZclCommand
     {
+        public const string Label = "On Command";
 
         /// <summary>
         /// Default constructor.

@@ -34,6 +34,7 @@ namespace ZigBeeNet.ZCL.Clusters.OTAUpgrade
     /// </summary>
     public class QueryNextImageResponse : ZclCommand
     {
+        public const string Label = "Query Next Image Response";
         /// <summary>
         /// Status command message field.
         /// </summary>

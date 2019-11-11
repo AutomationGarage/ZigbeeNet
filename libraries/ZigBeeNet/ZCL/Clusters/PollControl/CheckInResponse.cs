@@ -36,6 +36,7 @@ namespace ZigBeeNet.ZCL.Clusters.PollControl
     /// </summary>
     public class CheckInResponse : ZclCommand
     {
+        public const string Label = "Check In Response";
         /// <summary>
         /// Start Fast Polling command message field.
         /// </summary>

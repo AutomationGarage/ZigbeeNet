@@ -27,6 +27,7 @@ namespace ZigBeeNet.ZCL.Clusters.General
     /// </summary>
     public class ConfigureReportingCommand : ZclCommand
     {
+        public const string Label = "Configure Reporting Command";
         /// <summary>
         /// Records command message field.
         /// </summary>

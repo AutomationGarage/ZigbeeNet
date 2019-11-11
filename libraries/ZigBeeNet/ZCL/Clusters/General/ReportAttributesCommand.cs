@@ -25,6 +25,7 @@ namespace ZigBeeNet.ZCL.Clusters.General
     /// </summary>
     public class ReportAttributesCommand : ZclCommand
     {
+        public const string Label = "Report Attributes Command";
         /// <summary>
         /// Reports command message field.
         /// </summary>
@@ -58,7 +59,7 @@ namespace ZigBeeNet.ZCL.Clusters.General
             builder.Append("ReportAttributesCommand [");
             builder.Append(base.ToString());
             builder.Append(", Reports=");
-            builder.Append(string.Join(", ", Reports));
+            builder.Append(Reports);
             builder.Append(']');
 
             return builder.ToString();

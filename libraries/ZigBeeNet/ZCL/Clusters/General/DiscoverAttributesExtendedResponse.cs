@@ -23,6 +23,7 @@ namespace ZigBeeNet.ZCL.Clusters.General
     /// </summary>
     public class DiscoverAttributesExtendedResponse : ZclCommand
     {
+        public const string Label = "Discover Attributes Extended Response";
         /// <summary>
         /// Discovery complete command message field.
         /// </summary>

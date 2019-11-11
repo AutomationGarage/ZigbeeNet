@@ -221,6 +221,8 @@ namespace ZigBeeNet.CodeGenerator
                         code.AppendLine("    public class " + className + " : ZclCommand");
                         code.AppendLine("    {");
 
+                        code.AppendLine("        public const string Label = \"" + command.CommandLabel + "\";");
+
                         foreach (Field field in fields)
                         {
                             code.AppendLine("        /// <summary>");
@@ -844,6 +846,24 @@ namespace ZigBeeNet.CodeGenerator
                         code.AppendLine("                    default:");
                         code.AppendLine("                        return null;");
                         code.AppendLine("            }");
+                        code.AppendLine("        }");
+                    }
+
+                    if (cluster.Received.Count > 0)
+                    {
+                        code.AppendLine();
+                        code.AppendLine("        public override byte[] GetCommandIds()");
+                        code.AppendLine("        {");
+                        code.AppendLine("            return new byte[]");
+                        code.AppendLine("            {");
+
+                        foreach (Command command in cluster.Received.Values)
+                        {
+                            code.AppendLine("                " + command.CommandId + ",");
+                        }
+
+                        code.AppendLine("            };");
+
                         code.AppendLine("        }");
                     }
 

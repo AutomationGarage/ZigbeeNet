@@ -20,6 +20,7 @@ namespace ZigBeeNet.ZCL.Clusters.LevelControl
     /// </summary>
     public class StepCommand : ZclCommand
     {
+        public const string Label = "Step Command";
         /// <summary>
         /// Step mode command message field.
         /// </summary>

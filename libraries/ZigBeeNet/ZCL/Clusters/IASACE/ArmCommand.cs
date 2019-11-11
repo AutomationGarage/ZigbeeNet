@@ -25,6 +25,7 @@ namespace ZigBeeNet.ZCL.Clusters.IASACE
     /// </summary>
     public class ArmCommand : ZclCommand
     {
+        public const string Label = "Arm Command";
         /// <summary>
         /// Arm Mode command message field.
         /// </summary>

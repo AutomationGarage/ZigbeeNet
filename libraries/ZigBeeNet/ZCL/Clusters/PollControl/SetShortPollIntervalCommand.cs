@@ -27,6 +27,7 @@ namespace ZigBeeNet.ZCL.Clusters.PollControl
     /// </summary>
     public class SetShortPollIntervalCommand : ZclCommand
     {
+        public const string Label = "Set Short Poll Interval Command";
         /// <summary>
         /// New Short Poll Interval command message field.
         /// </summary>

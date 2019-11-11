@@ -20,6 +20,7 @@ namespace ZigBeeNet.ZCL.Clusters.RSSILocation
     /// </summary>
     public class SetAbsoluteLocationCommand : ZclCommand
     {
+        public const string Label = "Set Absolute Location Command";
         /// <summary>
         /// Coordinate 1 command message field.
         /// </summary>

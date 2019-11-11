@@ -20,6 +20,7 @@ namespace ZigBeeNet.ZCL.Clusters.Groups
     /// </summary>
     public class RemoveGroupResponse : ZclCommand
     {
+        public const string Label = "Remove Group Response";
         /// <summary>
         /// Status command message field.
         /// </summary>

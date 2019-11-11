@@ -20,6 +20,7 @@ namespace ZigBeeNet.ZCL.Clusters.RSSILocation
     /// </summary>
     public class SendPingsCommand : ZclCommand
     {
+        public const string Label = "Send Pings Command";
         /// <summary>
         /// Target Address command message field.
         /// </summary>

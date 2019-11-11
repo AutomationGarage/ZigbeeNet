@@ -20,6 +20,7 @@ namespace ZigBeeNet.ZCL.Clusters.IASZone
     /// </summary>
     public class ZoneEnrollResponse : ZclCommand
     {
+        public const string Label = "Zone Enroll Response";
         /// <summary>
         /// Enroll response code command message field.
         ///

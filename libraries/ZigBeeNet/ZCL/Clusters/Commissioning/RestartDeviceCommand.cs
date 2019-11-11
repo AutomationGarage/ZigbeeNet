@@ -20,6 +20,7 @@ namespace ZigBeeNet.ZCL.Clusters.Commissioning
     /// </summary>
     public class RestartDeviceCommand : ZclCommand
     {
+        public const string Label = "Restart Device Command";
         /// <summary>
         /// Option command message field.
         /// </summary>

@@ -22,6 +22,7 @@ namespace ZigBeeNet.ZCL.Clusters.OnOff
     /// </summary>
     public class OnWithRecallGlobalSceneCommand : ZclCommand
     {
+        public const string Label = "On With Recall Global Scene Command";
 
         /// <summary>
         /// Default constructor.

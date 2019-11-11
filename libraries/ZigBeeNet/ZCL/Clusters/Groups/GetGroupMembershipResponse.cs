@@ -20,6 +20,7 @@ namespace ZigBeeNet.ZCL.Clusters.Groups
     /// </summary>
     public class GetGroupMembershipResponse : ZclCommand
     {
+        public const string Label = "Get Group Membership Response";
         /// <summary>
         /// Capacity command message field.
         /// </summary>

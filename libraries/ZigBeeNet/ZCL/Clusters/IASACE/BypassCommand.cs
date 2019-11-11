@@ -27,6 +27,7 @@ namespace ZigBeeNet.ZCL.Clusters.IASACE
     /// </summary>
     public class BypassCommand : ZclCommand
     {
+        public const string Label = "Bypass Command";
         /// <summary>
         /// Number of Zones command message field.
         /// </summary>

@@ -20,6 +20,7 @@ namespace ZigBeeNet.ZCL.Clusters.RSSILocation
     /// </summary>
     public class ReportRSSIMeasurementsCommand : ZclCommand
     {
+        public const string Label = "Report RSSI Measurements Command";
         /// <summary>
         /// Reporting Address command message field.
         /// </summary>

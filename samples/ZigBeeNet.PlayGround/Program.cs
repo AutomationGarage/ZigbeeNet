@@ -102,7 +102,6 @@ namespace ZigBeeNet.PlayGround
 
                 networkManager.AddSupportedCluster(ZclOnOffCluster.CLUSTER_ID);
                 networkManager.AddSupportedCluster(ZclColorControlCluster.CLUSTER_ID);
-                networkManager.AddSupportedCluster(ZclTouchlinkCluster.CLUSTER_ID);
 
                 networkManager.AddExtension(new ZigBeeBasicServerExtension());
 

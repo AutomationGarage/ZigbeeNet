@@ -23,6 +23,7 @@ namespace ZigBeeNet.ZCL.Clusters.General
     /// </summary>
     public class ReadReportingConfigurationCommand : ZclCommand
     {
+        public const string Label = "Read Reporting Configuration Command";
         /// <summary>
         /// Records command message field.
         /// </summary>

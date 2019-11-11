@@ -28,6 +28,7 @@ namespace ZigBeeNet.ZCL.Clusters.IASACE
     /// </summary>
     public class GetPanelStatusCommand : ZclCommand
     {
+        public const string Label = "Get Panel Status Command";
 
         /// <summary>
         /// Default constructor.

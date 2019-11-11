@@ -27,6 +27,7 @@ namespace ZigBeeNet.ZCL.Clusters.IASACE
     /// </summary>
     public class GetZoneStatusCommand : ZclCommand
     {
+        public const string Label = "Get Zone Status Command";
         /// <summary>
         /// Starting Zone ID command message field.
         ///

@@ -25,6 +25,7 @@ namespace ZigBeeNet.ZCL.Clusters.Scenes
     /// </summary>
     public class GetSceneMembershipCommand : ZclCommand
     {
+        public const string Label = "Get Scene Membership Command";
         /// <summary>
         /// Group ID command message field.
         /// </summary>

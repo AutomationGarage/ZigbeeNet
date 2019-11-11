@@ -27,6 +27,7 @@ namespace ZigBeeNet.ZCL.Clusters.OTAUpgrade
     /// </summary>
     public class QuerySpecificFileCommand : ZclCommand
     {
+        public const string Label = "Query Specific File Command";
         /// <summary>
         /// Request node address command message field.
         /// </summary>

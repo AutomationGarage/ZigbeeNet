@@ -22,6 +22,7 @@ namespace ZigBeeNet.ZCL.Clusters.Scenes
     /// </summary>
     public class RecallSceneCommand : ZclCommand
     {
+        public const string Label = "Recall Scene Command";
         /// <summary>
         /// Group ID command message field.
         /// </summary>

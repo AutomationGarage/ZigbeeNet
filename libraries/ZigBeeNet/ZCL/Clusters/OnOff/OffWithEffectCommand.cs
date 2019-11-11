@@ -22,6 +22,7 @@ namespace ZigBeeNet.ZCL.Clusters.OnOff
     /// </summary>
     public class OffWithEffectCommand : ZclCommand
     {
+        public const string Label = "Off With Effect Command";
         /// <summary>
         /// Effect Identifier command message field.
         /// </summary>

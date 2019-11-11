@@ -30,6 +30,7 @@ namespace ZigBeeNet.ZCL.Clusters.OTAUpgrade
     /// </summary>
     public class QuerySpecificFileResponse : ZclCommand
     {
+        public const string Label = "Query Specific File Response";
         /// <summary>
         /// Status command message field.
         /// </summary>

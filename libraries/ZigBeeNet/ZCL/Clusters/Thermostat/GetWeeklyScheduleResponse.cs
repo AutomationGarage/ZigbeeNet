@@ -20,6 +20,7 @@ namespace ZigBeeNet.ZCL.Clusters.Thermostat
     /// </summary>
     public class GetWeeklyScheduleResponse : ZclCommand
     {
+        public const string Label = "Get Weekly Schedule Response";
         /// <summary>
         /// Number of Transitions command message field.
         /// </summary>

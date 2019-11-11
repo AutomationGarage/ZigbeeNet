@@ -20,6 +20,7 @@ namespace ZigBeeNet.ZCL.Clusters.RSSILocation
     /// </summary>
     public class CompactLocationDataNotificationCommand : ZclCommand
     {
+        public const string Label = "Compact Location Data Notification Command";
 
         /// <summary>
         /// Default constructor.

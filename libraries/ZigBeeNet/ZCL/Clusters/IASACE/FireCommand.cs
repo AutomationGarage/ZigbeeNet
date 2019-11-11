@@ -20,6 +20,7 @@ namespace ZigBeeNet.ZCL.Clusters.IASACE
     /// </summary>
     public class FireCommand : ZclCommand
     {
+        public const string Label = "Fire Command";
 
         /// <summary>
         /// Default constructor.

@@ -20,6 +20,7 @@ namespace ZigBeeNet.ZCL.Clusters.IASZone
     /// </summary>
     public class ZoneStatusChangeNotificationCommand : ZclCommand
     {
+        public const string Label = "Zone Status Change Notification Command";
         /// <summary>
         /// Zone Status command message field.
         /// </summary>

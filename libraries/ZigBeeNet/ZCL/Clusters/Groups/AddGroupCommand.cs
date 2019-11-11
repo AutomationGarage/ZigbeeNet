@@ -20,6 +20,7 @@ namespace ZigBeeNet.ZCL.Clusters.Groups
     /// </summary>
     public class AddGroupCommand : ZclCommand
     {
+        public const string Label = "Add Group Command";
         /// <summary>
         /// Group ID command message field.
         /// </summary>

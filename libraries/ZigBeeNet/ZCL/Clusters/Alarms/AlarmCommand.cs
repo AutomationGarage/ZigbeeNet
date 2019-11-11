@@ -26,6 +26,7 @@ namespace ZigBeeNet.ZCL.Clusters.Alarms
     /// </summary>
     public class AlarmCommand : ZclCommand
     {
+        public const string Label = "Alarm Command";
         /// <summary>
         /// Alarm code command message field.
         /// </summary>

@@ -31,6 +31,7 @@ namespace ZigBeeNet.ZCL.Clusters.LevelControl
     /// </summary>
     public class MoveToLevelCommand : ZclCommand
     {
+        public const string Label = "Move to Level Command";
         /// <summary>
         /// Level command message field.
         /// </summary>

@@ -20,6 +20,7 @@ namespace ZigBeeNet.ZCL.Clusters.RSSILocation
     /// </summary>
     public class RSSIResponse : ZclCommand
     {
+        public const string Label = "RSSI Response";
         /// <summary>
         /// Replying Device command message field.
         /// </summary>

@@ -32,6 +32,7 @@ namespace ZigBeeNet.ZCL.Clusters.PollControl
     /// </summary>
     public class FastPollStopCommand : ZclCommand
     {
+        public const string Label = "Fast Poll Stop Command";
 
         /// <summary>
         /// Default constructor.

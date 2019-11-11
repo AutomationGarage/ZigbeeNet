@@ -22,6 +22,7 @@ namespace ZigBeeNet.ZCL.Clusters.Identify
     /// </summary>
     public class IdentifyCommand : ZclCommand
     {
+        public const string Label = "Identify Command";
         /// <summary>
         /// Identify Time command message field.
         /// </summary>

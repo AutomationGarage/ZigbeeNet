@@ -20,6 +20,7 @@ namespace ZigBeeNet.ZCL.Clusters.IASACE
     /// </summary>
     public class ArmResponse : ZclCommand
     {
+        public const string Label = "Arm Response";
         /// <summary>
         /// Arm Notification command message field.
         /// </summary>

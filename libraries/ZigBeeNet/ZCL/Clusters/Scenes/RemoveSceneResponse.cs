@@ -20,6 +20,7 @@ namespace ZigBeeNet.ZCL.Clusters.Scenes
     /// </summary>
     public class RemoveSceneResponse : ZclCommand
     {
+        public const string Label = "Remove Scene Response";
         /// <summary>
         /// Status command message field.
         /// </summary>

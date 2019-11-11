@@ -20,6 +20,7 @@ namespace ZigBeeNet.ZCL.Clusters.RSSILocation
     /// </summary>
     public class RequestOwnLocationCommand : ZclCommand
     {
+        public const string Label = "Request Own Location Command";
         /// <summary>
         /// Requesting Address command message field.
         /// </summary>

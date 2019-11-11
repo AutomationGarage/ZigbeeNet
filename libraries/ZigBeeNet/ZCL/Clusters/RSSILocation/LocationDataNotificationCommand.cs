@@ -20,6 +20,7 @@ namespace ZigBeeNet.ZCL.Clusters.RSSILocation
     /// </summary>
     public class LocationDataNotificationCommand : ZclCommand
     {
+        public const string Label = "Location Data Notification Command";
         /// <summary>
         /// Location Type command message field.
         /// </summary>

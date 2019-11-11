@@ -20,6 +20,7 @@ namespace ZigBeeNet.ZCL.Clusters.Scenes
     /// </summary>
     public class GetSceneMembershipResponse : ZclCommand
     {
+        public const string Label = "Get Scene Membership Response";
         /// <summary>
         /// Status command message field.
         /// </summary>

@@ -20,6 +20,7 @@ namespace ZigBeeNet.ZCL.Clusters.Groups
     /// </summary>
     public class RemoveAllGroupsCommand : ZclCommand
     {
+        public const string Label = "Remove All Groups Command";
 
         /// <summary>
         /// Default constructor.

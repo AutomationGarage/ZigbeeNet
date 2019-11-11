@@ -20,6 +20,7 @@ namespace ZigBeeNet.ZCL.Clusters.Commissioning
     /// </summary>
     public class SaveStartupParametersResponse : ZclCommand
     {
+        public const string Label = "Save Startup Parameters Response";
         /// <summary>
         /// Status command message field.
         /// </summary>

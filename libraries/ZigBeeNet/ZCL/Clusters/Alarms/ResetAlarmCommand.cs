@@ -20,6 +20,7 @@ namespace ZigBeeNet.ZCL.Clusters.Alarms
     /// </summary>
     public class ResetAlarmCommand : ZclCommand
     {
+        public const string Label = "Reset Alarm Command";
         /// <summary>
         /// Alarm code command message field.
         /// </summary>

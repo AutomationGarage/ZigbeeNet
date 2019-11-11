@@ -20,6 +20,7 @@ namespace ZigBeeNet.ZCL.Clusters.Thermostat
     /// </summary>
     public class GetRelayStatusLogResponse : ZclCommand
     {
+        public const string Label = "Get Relay Status Log Response";
         /// <summary>
         /// Time of day command message field.
         /// </summary>

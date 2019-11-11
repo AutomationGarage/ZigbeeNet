@@ -20,6 +20,7 @@ namespace ZigBeeNet.ZCL.Clusters.Commissioning
     /// </summary>
     public class RestoreStartupParametersCommand : ZclCommand
     {
+        public const string Label = "Restore Startup Parameters Command";
         /// <summary>
         /// Option command message field.
         /// </summary>

@@ -20,6 +20,7 @@ namespace ZigBeeNet.ZCL.Clusters.LevelControl
     /// </summary>
     public class Stop2Command : ZclCommand
     {
+        public const string Label = "Stop 2 Command";
 
         /// <summary>
         /// Default constructor.
