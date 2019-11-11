@@ -183,7 +183,7 @@ namespace ZigBeeNet.App.Discovery
         ///
         /// <param name="requeryPeriod">networkAddress the network address of the node to discover</param>
         /// </summary>
-        public void RediscoverNode(ushort networkAddress)
+        public async Task RediscoverNode(ushort networkAddress)
         {
             if (!_initialized)
             {
@@ -194,7 +194,7 @@ namespace ZigBeeNet.App.Discovery
             Log.Debug("{NetworkAddress}: NWK Discovery starting node rediscovery", networkAddress);
             int retries = 0;
 
-            Task.Run(async () =>
+           await Task.Run(async () =>
             {
                 try
                 {
@@ -255,7 +255,7 @@ namespace ZigBeeNet.App.Discovery
         ///
         /// <param name="ieeeAddress">the <see cref="IeeeAddress"/> of the node to discover</param>
         /// </summary>
-        public void RediscoverNode(IeeeAddress ieeeAddress)
+        public async Task RediscoverNode(IeeeAddress ieeeAddress)
         {
             if (!_initialized)
             {
@@ -264,7 +264,7 @@ namespace ZigBeeNet.App.Discovery
                 return;
             }
 
-            Task.Run(async () =>
+           await Task.Run(async () =>
             {
                 Log.Debug("{IeeeAddress}: NWK Discovery starting node rediscovery", ieeeAddress);
                 int retries = 0;

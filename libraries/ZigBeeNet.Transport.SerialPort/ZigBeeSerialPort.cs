@@ -25,6 +25,8 @@ namespace ZigBeeNet.Tranport.SerialPort
 
         public bool IsOpen { get => _serialPort != null && _serialPort.IsOpen ? true : false; }
 
+        public static string[] Ports { get => System.IO.Ports.SerialPort.GetPortNames(); }
+
         public ZigBeeSerialPort(string portName, int baudrate = 115200)
         {
             PortName = portName;

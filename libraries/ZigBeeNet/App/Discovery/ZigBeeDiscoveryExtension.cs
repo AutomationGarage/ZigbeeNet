@@ -180,9 +180,9 @@ namespace ZigBeeNet.App.Discovery
         ///
         /// <param name="nodeAddress">the network address of the node to discove</param>
         /// </summary>
-        public void RediscoverNode(ushort nodeAddress)
+        public async Task RediscoverNode(ushort nodeAddress)
         {
-            _networkDiscoverer.RediscoverNode(nodeAddress);
+           await _networkDiscoverer.RediscoverNode(nodeAddress);
         }
 
         /// <summary>
@@ -191,9 +191,9 @@ namespace ZigBeeNet.App.Discovery
         ///
         /// <param name="ieeeAddress">the <see cref="IeeeAddress"/> of the node to discove</param>
         /// </summary>
-        public void RediscoverNode(IeeeAddress ieeeAddress)
+        public async Task RediscoverNode(IeeeAddress ieeeAddress)
         {
-            _networkDiscoverer.RediscoverNode(ieeeAddress);
+            await _networkDiscoverer.RediscoverNode(ieeeAddress);
         }
 
         private void StopScheduler()
