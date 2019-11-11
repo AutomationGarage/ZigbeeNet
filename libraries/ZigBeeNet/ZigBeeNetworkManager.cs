@@ -748,14 +748,25 @@ namespace ZigBeeNet
                 commandType = ZclCommandType.GetCommandType(apsFrame.Cluster, zclHeader.CommandId, zclHeader.Direction);
             }
 
+            ZclCommand command;
             if (commandType == null)
             {
-                Log.Debug("No command type found for {FrameType}, cluster={Cluster}, command={Command}, direction={Direction}", zclHeader.FrameType,
-                        apsFrame.Cluster, zclHeader.CommandId, zclHeader.Direction);
-                return null;
+                command = new ZclRawCommand()
+                {
+                    ClusterId = apsFrame.Cluster,
+                    CommandId = zclHeader.CommandId,
+                    CommandDirection = zclHeader.Direction,
+                    DestinationAddress = new ZigBeeEndpointAddress(apsFrame.DestinationAddress),
+                    SourceAddress = new ZigBeeEndpointAddress(apsFrame.SourceAddress),
+                    TransactionId = zclHeader.SequenceNumber,
+                };
+            }
+            else
+            {
+                command = commandType.GetCommand();
+                command.Fields = apsFrame.Payload.Skip(Math.Max(0, apsFrame.Payload.Count() - fieldDeserializer.RemainingLength)).ToArray();
             }
 
-            ZclCommand command = commandType.GetCommand();
             if (command == null)
             {
                 Log.Debug("No command found for {FrameType}, cluster={Cluster}, command={Command}", zclHeader.FrameType,

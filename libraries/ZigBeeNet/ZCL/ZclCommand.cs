@@ -15,6 +15,8 @@ namespace ZigBeeNet.ZCL
         /// </summary>
         public byte CommandId { get; set; }
 
+        public byte[] Fields { get; set; }
+
         /// <summary>
         /// The command direction for this command.
         /// <p>
