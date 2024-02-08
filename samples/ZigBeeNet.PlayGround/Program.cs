@@ -378,6 +378,7 @@ namespace ZigBeeNet.PlayGround
                     Console.ForegroundColor = currentForeGroundColor;
                     cmd = Console.ReadLine();
                 }
+                networkManager.Shutdown();
             }
             catch (OptionException e)
             {
